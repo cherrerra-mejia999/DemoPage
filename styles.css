@@ -137,3 +137,71 @@ table {
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
+
+#education {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    background-color: #f9f9f9;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.education-box {
+    flex: 1;
+    border: 2px solid #aaa;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+}
+
+.education-box h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #444;
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    color: #555;
+    border-top: 2px solid #ccc;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;;
+}
