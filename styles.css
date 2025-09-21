@@ -16,6 +16,11 @@ h2 {
 body {
     margin: 0;
     padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header-section {
@@ -203,5 +208,14 @@ footer ul li {
 
 .quote{
     text-align: center;
-    font-style: italic;;
+    font-style: italic;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    color: #333;
 }
